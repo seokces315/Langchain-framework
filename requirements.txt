@@ -1,0 +1,21 @@
+numpy
+datasets
+langchain
+transformers
+wandb
+accelerate
+sentence-transformers
+faiss
+torch
+
+'''
+pip install numpy
+pip install datasets
+pip install langchain
+pip install transformers
+pip install wandb
+pip install accelerate -U
+pip install sentence-transformers
+conda install -c pytorch -c nvidia faiss-gpu=1.8.0
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+'''
