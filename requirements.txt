@@ -1,29 +1,31 @@
-numpy
-torch
-datasets
 transformers
-accelerate
-faiss
-wandb
+datasets
 langchain
 langchain-community
 pypdf
 sentence-transformers
+faiss
 chromadb
 openai
+langchain-mistralai
+nltk
+rouge
+bert_score
+ragas
 
 '''
-pip install numpy
-pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-pip install datasets
 pip install transformers
-pip install accelerate -U
-conda install -c pytorch -c nvidia faiss-gpu=1.8.0
-pip install wandb
+pip install datasets
 pip install langchain
 pip install langchain-community
 pip install pypdf
 pip install sentence-transformers
+conda install -c pytorch -c nvidia faiss-gpu=1.8.0
 pip install chromadb
 pip install openai
+pip install langchain-mistralai
+pip install nltk
+pip install rouge
+pip install bert_score
+pip install ragas
 '''
